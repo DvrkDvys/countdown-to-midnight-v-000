@@ -6,8 +6,8 @@ def countdown(i)
     return "HAPPY NEW YEAR!"
   else
     loop do
-      # puts "#{i} SECONDS(S)!"
-    return "#{i} SECONDS(S)!"
+      puts "#{i} SECONDS(S)!"
+    # return "#{i} SECONDS(S)!"
       i -= 1
     break if i <= 0 
   end
