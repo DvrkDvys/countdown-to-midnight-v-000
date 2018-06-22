@@ -7,7 +7,6 @@ def countdown(i)
   else
     loop do
       puts "#{i} SECOND(S)!"
-    # return "#{i} SECONDS(S)!"
       i -= 1
     break if i <= 0 
   end
