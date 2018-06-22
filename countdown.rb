@@ -1,9 +1,6 @@
 #write your code here
 require 'pry'
 
-
-
-
 def countdown(i)
   if i == 12
     return "HAPPY NEW YEAR!"
@@ -14,13 +11,6 @@ def countdown(i)
   end
  end
 end
-
-
-
-
-
-
-
 
 # def countdown(i)
 #   if i == 12
@@ -33,7 +23,6 @@ end
 #   end
 # end
 # end
-
 
 def countdown_with_sleep(i)
   sleep(i)
